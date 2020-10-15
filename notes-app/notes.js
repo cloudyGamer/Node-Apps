@@ -6,7 +6,9 @@ const addNote = (title,body) => {
      const duplicateNote = notes.find(
        (note) => note.title === title
        );
-     debugger;
+     
+     debugger
+     
      if(!duplicateNote){
           notes.push({
                title:title,
